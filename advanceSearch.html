@@ -2,119 +2,62 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./a.css">
     </head>
     <body>
 		<div class="appbar"> <label style="margin-left:10px">Advanced Search</label></div>
-
-<div class="otByu">
-	<div class="yIQOUb"> 
-	<div class="FAcADc"> 
-		<div class="lOTAE"> 
-			<label for="xX4UFf">all these words:</label>   
-		</div> 
-	</div> 
-	<div class="jYcx0e"> 
-		<div class="PLLUQc"> 
-			<input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"> 
-		</div> 
-	</div> 
-	<div class="cwqNnb dulCv"> 
-		<div class="lOTAE">Type the important words:  <span class="BFlQMb">tri-colour rat terrier</span>   
-		</div> 
-	</div> 
-</div> 
-<div class="yIQOUb"> 
-	<div class="FAcADc"> 
-		<div class="lOTAE"> 
-			<label for="CwYCWc">this exact word or phrase:</label>   
-		</div> 
-	</div> 
-	<div class="jYcx0e"> 
-		<div class="PLLUQc"> 
-			<input class="jfk-textinput" value="" id="CwYCWc" name="as_epq" type="text"> </div>
-		</div> 
-		<div class="cwqNnb dulCv"> 
-			<div class="lOTAE">Put exact words in quotes:  
-				<span class="BFlQMb">"rat terrier"</span>   
-			</div> 
-		</div> 
-	</div> 
-	<div class="yIQOUb"> 
-		<div class="FAcADc"> 
-			<div class="lOTAE"> 
-				<label for="mSoczb">any of these words:</label>   
-			</div> 
-		</div> 
-		<div class="jYcx0e"> 
-			<div class="PLLUQc"> 
-				<input class="jfk-textinput" value="" id="mSoczb" name="as_oq" type="text"> </div>
-			</div> 
-			<div class="cwqNnb dulCv"> 
-				<div class="lOTAE">Type <span class="BFlQMb">OR</span> between all the words you want:  <span class="BFlQMb">miniature OR standard</span>   
-				</div> 
-			</div> 
-		</div> 
-		<div class="yIQOUb"> 
-			<div class="FAcADc"> 
-				<div class="lOTAE"> 
-					<label for="t2dX1c">none of these words:</label>   
-				</div> 
-			</div> 
-			<div class="jYcx0e"> 
-				<div class="PLLUQc"> 
-					<input class="jfk-textinput" value="" id="t2dX1c" name="as_eq" type="text"> 
-				</div> 
-			</div> 
-			<div class="cwqNnb dulCv"> 
-				<div class="lOTAE">Put a minus sign just before words that you don't want:  <span class="BFlQMb">-rodent, -"Jack Russell"</span>   
-				</div> 
-			</div> 
-		</div> 
-		<div class="yIQOUb"> 
-			<div class="FAcADc"> 
-				<div class="lOTAE"> 
-					<label for="LK5akc">numbers ranging from:</label> 
-				</div> 
-			</div> 
-			<div class="jYcx0e" style="position:relative"> 
-				<div style="display:table;width:100%"> 
-					<div style="display:table-cell;padding-right:16px"> 
-						<input class="jfk-textinput" id="LK5akc" name="as_nlo" type="text"> 
-					</div> 
-					<div style="display:table-cell;width:40px;padding-right:6px;padding-left:6px;text-align:center;font-size:13px;color:#222">to</div> 
-					<div style="display:table-cell;padding-right:16px"> 
-						<input class="jfk-textinput" name="as_nhi" type="text"> 
-					</div> 
-				</div> 
-			</div> 
-			<div class="cwqNnb dulCv"> 
-				<div class="lOTAE">Put two full stops between the numbers and add a unit of measurement: 
-					<span class="BFlQMb">10..35 kg, £300..£500, 2010..2011</span>
-				</div>
-</div> </div> 
+<div class="blank"></div> </div>
 
 
- <div class="blank"></div> </div>
+
+
 <br>
 <br>
-    	<div id="wrap">
+    <div id="wrap">
+		<div>
+			<div class="type"> 
+                <div class="inside"> 
+                    <label for="text">all these words:</label>   
+                </div> 
 	        <form id="allWords" action="https://google.com/search">
 	            <input type="text" name="q">
 	            <input type="submit" value="Google Search">
 	        </form>
-	         <form id="onlyThisWord" action="https://google.com/search">
+		</div>
+
+		<div>
+			<div class="type"> 
+                <div class="inside"> 
+                    <label for="text">all these words:</label>   
+                </div> 
+	        
+			<form id="onlyThisWord" action="https://google.com/search">
 	            <input type="text" name="as_epq" >
 	            <input type="submit" value="Google Search">
-	        </form>
-	         <form id="anyOfThisWord" action="https://google.com/search" >
+			</form>
+		</div>
+		<div>
+			<div class="type"> 
+                <div class="inside"> 
+                    <label for="text">all these words:</label>   
+                </div> 
+	        
+	        <form id="anyOfThisWord" action="https://google.com/search" >
 	            <input type="text" name="as_oq">
 	            <input type="submit" value="Google Search">
-	        </form>
-	         <form id="noneOfThisWord" action="https://google.com/search">
+			</form>
+		</div>
+		<div>
+			<div class="type"> 
+                <div class="inside"> 
+                    <label for="text">all these words:</label>   
+                </div> 
+	    
+	        <form id="noneOfThisWord" action="https://google.com/search">
 	            <input type="text" name="as_eq">
 	            <input type="submit" value="Google Search">
-	        </form>
+			</form>
+		</div>
     		
     	</div>
     </body>

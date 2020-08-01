@@ -1,0 +1,33 @@
+div.outer div {
+    float: left;
+}
+
+
+div.outer div.type {
+display: inline-block;
+min-width: 150px;
+width: 20%;
+height: 42px;
+line-height: 20px;
+vertical-align: middle;
+}
+div{
+    display: block;
+}
+div.outer div.box {
+    display: inline-block;
+    min-width: 150px;
+    width: 16%;
+    height: 42px;
+    line-height: 20px;
+    vertical-align: middle;
+    }
+div.outer div.type div.example {
+    display: inline-block;
+    min-width: 150px;
+    width: 16%;
+    height: 42px;
+    line-height: 20px;
+    vertical-align: middle;
+    }
+    
