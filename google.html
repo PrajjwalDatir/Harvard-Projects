@@ -1,56 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-	.middle {
-		margin: 0;
-  		position: absolute;
- 		top: 37%;
-		left: 50%;
- 		-ms-transform: translate(-50%, -50%);
-  		transform: translate(-50%, -50%);
-		}
-
-	.center{
-		margin: 0;
-  		position: absolute;
- 		top: 53%;
-		left: 50%;
- 		-ms-transform: translate(-50%, -50%);
-  		transform: translate(-50%, -50%);
-		}
-
-	#box{
-		border: 1px solid blue;
-		border-radius:25px;
-		padding: 20px; 
-		width:360px;
-		height: 5px;
-		}
-
-	.buttons{
-		background-color:lightgray;
-		width:120px;
-		height:40px;
-		margin:7px;
-		}
-
-    </style>
+	<link rel="stylesheet" href="./google.css">
 </head>
 
 <body>
   <div class="middle">
 	<form action="https://google.com/search">
-		<img src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" alt="Google" style="width:270px;height:90px;margin-left:18%;"></br>
+		<img src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" alt="Google" style="width:270px;height:90px;margin-left:15%; margin-bottom: 5%;"></br>
 		<input type="text" name="q" id="box">
 	<form>
   </div>
 
   <div class="center">
 		<input type="submit" value="Google Search" class="buttons">
-		<input type="submit" value="I'm feeling lucky"  formaction="https://google.com/search" class="buttons" >
+		<input type="submit" value="I'm feeling lucky"  formaction="https://www.google.com/doodles/" class="buttons" >
   </div>
-
+<div id="footer">
+	<footer>©PrajjwalDatir</footer>
+</div>
 </body>
 
 </html>
