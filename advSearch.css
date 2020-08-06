@@ -1,33 +1,43 @@
-div.outer div {
-    float: left;
-}
-
-
-div.outer div.type {
-display: inline-block;
-min-width: 150px;
-width: 20%;
-height: 42px;
-line-height: 20px;
-vertical-align: middle;
-}
-div{
-    display: block;
-}
-div.outer div.box {
-    display: inline-block;
-    min-width: 150px;
-    width: 16%;
-    height: 42px;
-    line-height: 20px;
-    vertical-align: middle;
+.Search{
+    position : fixed;
+    top:17%;
+    margin-left:20px;
+    font-size:18px;
+    font-family:Arial;
     }
-div.outer div.type div.example {
-    display: inline-block;
-    min-width: 150px;
-    width: 16%;
-    height: 42px;
-    line-height: 20px;
-    vertical-align: middle;
+
+.header{
+    position : fixed;
+    top: 60px;
+    width : 100%;
+    font-family:Arial;
+    color:rgb(255, 0, 0);
+    text-align:left;
+    margin-top:20px;
+    font-size:25px;
+    margin-left:20px;
     }
-    
+
+.Searchbox2{
+    width:442px;	
+    height:25px;
+    font-family:Times New Roman;
+    font-size:20px;
+    }
+
+.Pages2{
+    position : fixed;
+    top:5%;
+    right:0;
+    margin:2%;
+    font-size:20px;
+    }
+
+#button2{
+    background-color:blue;
+    color:white;
+    width:140px;	
+    height:30px;
+    margin-left:30%;
+    font-weight: bold;
+    }
